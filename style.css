@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+* {
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+body{
+background-color: black;
+font-family: 'Poppins', sans-serif;
+}
+div{
+	height: 33.33vh;
+}
+
+input[type=number]{
+	width: 100%;
+	text-align: center;
+	height: 100%;
+	background-color: black;
+	color: white;
+	font-size: 70px;
+	border:0;
+	font-family: 'Poppins', sans-serif;
+}
+::placeholder{
+	color: #222222;
+}
